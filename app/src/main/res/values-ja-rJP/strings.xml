@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZodiacoChino</string>
+    <string name="Titulo">あなたどの中国の星占いですか</string>
+    <string name="subtitulo">あなたの情報を入力してください</string>
+    <string name="nombre">名前</string>
+    <string name="date">dd/mm/yyyy</string>
+    <string name="numeroC">口座番号</string>
+    <string name="email">Eメール</string>
+    <string name="boton">準備</string>
+    <string name="Titulo2">あなたの中国の星占いは</string>
+    <string name="nombreF">あなたのお名前は</string>
+    <string name="edad">あなたの年齢</string>
+    <string name="NC">あなたの口座番号は</string>
+    <string name="Correo">あなたのメールは</string>
+    <string name="title_activity_main2">ぼくの アプリ</string>
+</resources>

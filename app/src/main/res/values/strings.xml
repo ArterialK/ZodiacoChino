@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ZodiacoChino</string>
+    <string name="Titulo">¿Cuál horoscopo chino eres?</string>
+    <string name="subtitulo">¡Ingresa los datos y descubrelo!</string>
+    <string name="nombre">Nombre </string>
+    <string name="date">dd/mm/aaaa </string>
+    <string name="numeroC">Número de cuenta </string>
+    <string name="email">Correo electrónico </string>
+    <string name="boton">¡Listo! </string>
+    <string name="Titulo2">Tu horóscopo chino es… </string>
+    <string name="nombreF"> Te llamas </string>
+    <string name="edad"> Tienes </string>
+    <string name="NC"> Tu número de cuenta es </string>
+    <string name="Correo">Tu correo es</string>
+    <string name="title_activity_main2">Mi App</string>
+</resources>
