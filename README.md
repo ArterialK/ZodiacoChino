@@ -3,7 +3,7 @@ Aplicacion Android en lenguaje Kotlin para saber el horoscopo chino segun la fec
 
 Esta aplicacion solicita el nombre, fecha de nacimiento, numero de cuenta a 9 digitos y correo electronico
 Una vez ingresados los datos al presionar el boton la aplicacion verificara si estan bien ingresados para asi
-pasar a la siguiente actividad donde muestra esa informacion junto con el horoscopo chino.
+pasar a la siguiente activity donde muestra esa informacion junto con el horoscopo chino.
 
 Si los datos son ingresados incorrectamente habra un mensaje de error, ya sea en el EditableText o en un mensaje emergente (en el caso del calendario.)
 
