@@ -20,6 +20,6 @@ longitudes menores a 9 y tiene una restriccion para mayores de 9 caracteres.
 Correo electronico:
 El correo electronico debe tener '@', el cual no se encuentre al inicio de la cadena o al final de ella,
 ademas de un '.', el cual debe estar despues del @ y no puede encontrarse en el caracter siguiente al @
-ni al funal de la cadena.
+ni al final de la cadena.
 
 La aplicacion contempla 3 idiomas: Español, Ingles y Japones
