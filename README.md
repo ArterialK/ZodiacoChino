@@ -5,13 +5,15 @@ Esta aplicacion solicita el nombre, fecha de nacimiento, numero de cuenta a 9 di
 Una vez ingresados los datos al presionar el boton la aplicacion verificara si estan bien ingresados para asi
 pasar a la siguiente actividad donde muestra esa informacion junto con el horoscopo chino.
 
+Si los datos son ingresados incorrectamente habra un mensaje de error, ya sea en el EditableText o en un mensaje emergente (en el caso del calendario.)
+
 Nombre:
 El nombre tiene una longitud maxima de 46 caracteres considerando al nombre mas largo del mundo, no permite
 caracteres especiales ni numeros, acepta espacios para ingresar apellidos si lo desea.
 
 Fecha:
 La fecha de nacimiento sera ingresada por medio del calendario del dispositivo, al tocar el EditableText
-se abrira el calendario para ingresar la fecha y se guardara en el formato dd/mm/aaaa
+se abrira el calendario para ingresar la fecha y se guardara en el formato dd/mm/aaaa. No se puede ingresar una fecha mayor a la fecha actual en la que se corre la aplicacion.
 
 Numero de cuenta:
 El numero de cuenta solo acepta digitos numericos y debe ser de una longitud de 9 digitos, no acepta 
