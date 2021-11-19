@@ -14,4 +14,21 @@
     <string name="NC">あなたの口座番号は</string>
     <string name="Correo">あなたのメールは</string>
     <string name="title_activity_main2">ぼくの アプリ</string>
+    <string name="cerdo">亥</string>
+    <string name="perro">戌</string>
+    <string name="gallo">酉</string>
+    <string name="mono">申</string>
+    <string name="cabra">羊</string>
+    <string name="caballo">午</string>
+    <string name="serpiente">巳</string>
+    <string name="buey">丑</string>
+    <string name="rata">子</string>
+    <string name="tigre">寅</string>
+    <string name="conejo">卯</string>
+    <string name="dragon">辰</string>
+    <string name="emmm">わからない</string>
+    <string name="eCorreo">無効なメール</string>
+    <string name="eNC">無効な口座番号</string>
+    <string name="eNombre">無効な名前</string>
+    <string name="eFecha">日付が無効です</string>
 </resources>

@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
 
         //Condicion para aprobar nombre
         if(!esunNombre(etNombre.text.toString())){
-            etNombre.error = "Nombre invalido"
+            etNombre.error = getString(R.string.eNombre)
             correctoFlag = false}
         else{
             nombre = etNombre.text.toString()
@@ -104,14 +104,14 @@ class MainActivity : AppCompatActivity() {
 
         //Condicion para aprobar numero de cuenta
         if(etNumeroC.text.toString().length < 9){
-            etNumeroC.error = "Numero menor a 9 cifras"
+            etNumeroC.error = getString(R.string.eNC)
             correctoFlag = false}
         else{
             numeroCuenta = etNumeroC.text.toString().toInt()
             parametros.putInt("NumC", numeroCuenta) }
         //Condicion para aprobar correo
         if(!esCorreo(etCorreo.text.toString())){
-            etCorreo.error = "Correo invalido"
+            etCorreo.error = getString(R.string.eCorreo)
             correctoFlag = false}
         else{
             correo = etCorreo.text.toString()
@@ -124,7 +124,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun calendario(view: View) {
-        val datePicker = DatePickerFragment {day,month,year -> diaSeleccionado(day,month, year)}
+        val datePicker = LlamarCalendario { day, month, year -> diaSeleccionado(day,month, year)}
         datePicker.show(supportFragmentManager,  "datePiker")
     }
 
@@ -137,11 +137,11 @@ class MainActivity : AppCompatActivity() {
         etFecha.text.clear()
         parametros.putInt("AnioNacido", year)
         if (year > anioActual || year < (anioActual - 110)) {
-            Toast.makeText(this, "Año invalido", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.eFecha), Toast.LENGTH_LONG).show()
             etFecha.text.clear()
         } else if (year == anioActual) {
             if (day > diaActual && month >= mesActual) {
-                Toast.makeText(this, "Fecha invalida", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, getString(R.string.eFecha), Toast.LENGTH_LONG).show()
                 etFecha.text.clear() }
             else {
                 etFecha.setText("${day}/${month + 1}/${year}")

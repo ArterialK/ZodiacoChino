@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ZodiacoChino</string>
-    <string name="Titulo">Which Chinese horoscope are you?</string>
+    <string name="Titulo">Which Chinese zodiac are you?</string>
     <string name="subtitulo">Enter your info and find out!</string>
     <string name="nombre">Name</string>
     <string name="date">dd/mm/yyyy</string>
@@ -14,4 +14,21 @@
     <string name="NC">Your Account number is</string>
     <string name="Correo">Your email is</string>
     <string name="title_activity_main2">My app</string>
+    <string name="mono">Monkey</string>
+    <string name="cerdo">Pig</string>
+    <string name="tigre">Tiger</string>
+    <string name="rata">Rat</string>
+    <string name="dragon">Dragon</string>
+    <string name="perro">Dog</string>
+    <string name="caballo">Horse</string>
+    <string name="conejo">Rabbit</string>
+    <string name="serpiente">Snake</string>
+    <string name="buey">Ox</string>
+    <string name="cabra">Goat</string>
+    <string name="gallo">Rooster</string>
+    <string name="emmm">dont known</string>
+    <string name="eNombre">invalid name</string>
+    <string name="eNC">invalid account number</string>
+    <string name="eCorreo">invalid email</string>
+    <string name="eFecha">invalid date</string>
 </resources>

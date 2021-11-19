@@ -8,7 +8,7 @@ import android.widget.DatePicker
 import androidx.fragment.app.DialogFragment
 import java.util.*
 
-class DatePickerFragment(val listener: ( day: Int, month: Int, year: Int) -> Unit): DialogFragment(),
+class LlamarCalendario(val listener: (day: Int, month: Int, year: Int) -> Unit): DialogFragment(),
     DatePickerDialog.OnDateSetListener {
     override fun onDateSet(p0: DatePicker?, year: Int, month: Int, day: Int) {
         listener(day,month, year)
@@ -19,6 +19,8 @@ class DatePickerFragment(val listener: ( day: Int, month: Int, year: Int) -> Uni
         val day: Int = c.get(Calendar.DAY_OF_MONTH)
         val month: Int = c.get(Calendar.MONTH)
         val year: Int = c.get(Calendar.YEAR)
-        return DatePickerDialog(activity as Context, this, year, month, day)
+        val cal = DatePickerDialog(activity as Context, this, year, month, day)
+        cal.datePicker.maxDate = System.currentTimeMillis()
+        return cal
     }
 }

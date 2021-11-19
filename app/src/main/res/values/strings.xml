@@ -13,4 +13,23 @@
     <string name="NC"> Tu número de cuenta es </string>
     <string name="Correo">Tu correo es</string>
     <string name="title_activity_main2">Mi App</string>
+    //Horoscopos chinos
+    <string name="mono">Mono</string>
+    <string name="cerdo">Cerdo</string>
+    <string name="tigre">Tigre</string>
+    <string name="rata">Rata</string>
+    <string name="dragon">Dragon</string>
+    <string name="perro">Perro</string>
+    <string name="caballo">Caballo</string>
+    <string name="conejo">Conejo</string>
+    <string name="serpiente">Serpiente</string>
+    <string name="buey">Buey</string>
+    <string name="cabra">Cabra</string>
+    <string name="gallo">Gallo</string>
+    <string name="emmm">No se</string>
+    //Errores
+    <string name="eNombre">Nombre invalido</string>
+    <string name="eNC">Numero de cuenta invalido</string>
+    <string name="eCorreo">Correo invalido</string>
+    <string name="eFecha">Fecha invalida</string>
 </resources>

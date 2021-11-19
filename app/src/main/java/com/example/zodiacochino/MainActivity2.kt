@@ -42,31 +42,31 @@ class MainActivity2 : AppCompatActivity() {
         val tvHoroscopo = findViewById<TextView>(R.id.tvHoroscopo)
         when(anioN?.rem(12)) {
             0 -> { ivFoto.setImageResource(R.drawable.mono)
-                    tvHoroscopo.text = "Mono"}
+                    tvHoroscopo.text = getString(R.string.mono)}
             1 -> { ivFoto.setImageResource(R.drawable.gallo)
-                    tvHoroscopo.text = "Gallo"}
+                    tvHoroscopo.text = getString(R.string.gallo)}
             2 -> { ivFoto.setImageResource(R.drawable.perro)
-                    tvHoroscopo.text = "Perro"}
+                    tvHoroscopo.text = getString(R.string.perro)}
             3 -> { ivFoto.setImageResource(R.drawable.cerdo)
-                    tvHoroscopo.text = "Cerdo"}
+                    tvHoroscopo.text = getString(R.string.cerdo)}
             4 -> { ivFoto.setImageResource(R.drawable.rata)
-                    tvHoroscopo.text = "Rata"}
+                    tvHoroscopo.text = getString(R.string.rata)}
             5 -> { ivFoto.setImageResource(R.drawable.buey)
-                    tvHoroscopo.text = "Buey"}
+                    tvHoroscopo.text = getString(R.string.buey)}
             6 -> { ivFoto.setImageResource(R.drawable.tigre)
-                    tvHoroscopo.text = "Tigre"}
+                    tvHoroscopo.text = getString(R.string.tigre)}
             7 -> { ivFoto.setImageResource(R.drawable.conejo)
-                    tvHoroscopo.text = "Conejo"}
+                    tvHoroscopo.text = getString(R.string.conejo)}
             8 -> { ivFoto.setImageResource(R.drawable.dragon)
-                    tvHoroscopo.text = "Dragón"}
+                    tvHoroscopo.text = getString(R.string.dragon)}
             9 -> { ivFoto.setImageResource(R.drawable.serpiente)
-                    tvHoroscopo.text = "Serpiente"}
+                    tvHoroscopo.text = getString(R.string.serpiente)}
             10 -> { ivFoto.setImageResource(R.drawable.caballo)
-                    tvHoroscopo.text = "Caballo"}
+                    tvHoroscopo.text = getString(R.string.caballo)}
             11 -> { ivFoto.setImageResource(R.drawable.cabra)
-                    tvHoroscopo.text = "Cabra"}
+                    tvHoroscopo.text = getString(R.string.cabra)}
             else -> { ivFoto.setImageResource(R.drawable.emmm)
-                    tvHoroscopo.text = "No se pudo"}
+                    tvHoroscopo.text = getString(R.string.emmm)}
         }
 
     }
